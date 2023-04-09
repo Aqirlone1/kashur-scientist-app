@@ -1,0 +1,155 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: orange;
+  color: #333;
+  font-size: 18px;
+  position: relative;
+  z-index: 999;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.comp {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+  position: relative;
+}
+
+.navbar-links li a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  background-color: yellow;
+ 
+}
+
+.navbar-links li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 150px;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ 
+ 
+}
+
+.navbar-links li:hover > ul {
+  display: block;
+}
+
+.navbar-links li ul li {
+  position: relative;
+}
+
+.navbar-links li ul li ul {
+  left: 100%;
+  top: 0;
+}
+
+.navbar-links li ul li:hover > ul {
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 150px;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.navbar-links li:hover .dropdown {
+  display: block;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown li a:hover {
+  background-color: #eee;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.navbar-toggle span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .navbar-left {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-links {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .navbar-links li {
+    margin: 10px 0;
+  }
+  
+  .navbar-toggle {
+    display: block;
+  }
+  
+  .navbar-links.active {
+    display: block;
+  }
+}
