@@ -4,7 +4,7 @@ import "./CardList.css";
 
 const Card = ({ title, content, imageUrl }) => {
   return (
-    <div className="card">
+    <div className="card-m">
       <h2> {title} </h2> 
       <h3> {content} </h3>{" "}
     </div>

@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 100px auto;
  
 }
 
-.card {
+.card-m {
  
   width: 30%;
   height: 300px;
@@ -17,21 +18,21 @@
   background-image: linear-gradient(to bottom, rgb(229, 169, 57) 50%, orange 50%);
 }
 
-div.card {
+div.card-m {
   
   padding: 20px;
   text-align: center;
 }
 
 
-.card h2 {
+.card-m h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 70px;
 }
 
-.card p {
+.card-m p {
   margin: 10px;
   font-size: 16px;
 }
@@ -43,7 +44,7 @@ div.card {
     align-items: center;
   }
 
-  .card {
+  .card-m {
     width: 80%;
   }
 }
