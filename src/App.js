@@ -38,7 +38,7 @@ function App() {
                     <Link to="/courses"> Courses </Link>{" "}
                   </li>{" "}
                   <li>
-                        <Link to="https://api.whatsapp.com/send?phone=1234567890">
+                        <Link to="https://api.whatsapp.com/send?phone=917051248791">
                           < i className = "fab fa-whatsapp" >💬</i>{" "}
 
 

@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
-  background-color: red;
+  height: 100px;
+  background-color: hwb(2 5% 34% / 0.573);
   color: #333;
   font-size: 18px;
   position: relative;
@@ -159,14 +159,13 @@
 
 .ks{
 
-  
   padding: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 100px;
-  height: auto;
+  height: .5px;
   background-image: url(./logo-ks.png);
   background-repeat: no-repeat;
   background-position: center;
