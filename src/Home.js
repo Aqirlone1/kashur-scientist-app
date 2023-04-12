@@ -7,6 +7,8 @@ import Slider from "./Aima/Slider";
 import "./featured.css";
 import Footer from "./Aima/footer";
 
+
+
 const Home = () => {
   return (
     <div>

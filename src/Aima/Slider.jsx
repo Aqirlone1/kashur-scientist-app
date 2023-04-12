@@ -35,7 +35,7 @@ export default function Slider(
     }}
     modules={[Pagination, Autoplay]}
     className="mySwiper"
-  
+
   >
     <SwiperSlide><img src={featuredIn1} alt=""  /></SwiperSlide>
     <SwiperSlide><img src={featuredIn2} alt=""  /></SwiperSlide>
@@ -45,7 +45,6 @@ export default function Slider(
     <SwiperSlide><img src={featuredIn6} alt=""  /></SwiperSlide>
     <SwiperSlide><img src={featuredIn7} alt=""  /></SwiperSlide>
     <SwiperSlide><img src={featuredIn8} alt=""  /></SwiperSlide>
-    
   </Swiper>
 </div>
   )

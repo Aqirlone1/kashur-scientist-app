@@ -21,7 +21,7 @@ function App() {
           <header>
             <nav className="navbar">
               <div className="navbar-left">
-                <h1 className="comp"> Kashur Scientist..... </h1>{" "}
+                <div className="ks"> </div>{" "}
               </div>{" "}
               <div className={`navbar-right ${menuOpen ? "open" : ""}`}>
                 <ul className="navbar-links">
@@ -36,19 +36,22 @@ function App() {
                   </li>{" "}
                   <li>
                     <Link to="/courses"> Courses </Link>{" "}
-                    <ul className="dropdown">
-                      <li>
-                        <a href="https://api.whatsapp.com/send?phone=1234567890">
-                          <i className="fab fa-whatsapp"> </i>{" "}
-                        </a>{" "}
-                      </li>{" "}
-                      <li>
-                        <a href="tel:+1234567890">
-                          <i className="fas fa-phone"> </i>{" "}
-                        </a>{" "}
-                      </li>{" "}
-                    </ul>{" "}
                   </li>{" "}
+                  <li>
+                        <Link to="https://api.whatsapp.com/send?phone=1234567890">
+                          < i className = "fab fa-whatsapp" >💬</i>{" "}
+
+
+                        </Link>{" "}
+                  </li>{" "}
+                      <li>
+                        <Link to="tel:+1234567890">
+                          <i className="fas fa-phone"> 📞</i>{" "}
+                        </Link>{" "}
+                  </li>{" "}
+                      <li>
+                  </li>{" "}
+
                 </ul>{" "}
               </div>{" "}
               <div className="navbar-toggle" onClick={toggleMenu}>
@@ -62,6 +65,8 @@ function App() {
               <Route path="/about" element={<About />} />{" "}
               <Route path="/contact" element={<Contacts />} />{" "}
               <Route path="/courses" element={<Courses />} />{" "}
+
+              < Route path="*" element={<h1> 404 Not Found </h1>} />{" "}
             </Routes>{" "}
           </main>{" "}
         </div>{" "}
@@ -71,3 +76,4 @@ function App() {
 }
 
 export default App;
+
