@@ -6,6 +6,7 @@ import Slant from "./Aima/slant";
 import Slider from "./Aima/Slider";
 import "./featured.css";
 import Footer from "./Aima/footer";
+import Goals from "./Goals"
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
       <CoursesCard />
       <CardList />
       <Slant />
+      <Goals/>
       <div className="featured-in">FEATURED IN</div>
       <Slider />
       <div className="blank-space"> </div>
