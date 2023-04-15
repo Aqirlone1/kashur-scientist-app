@@ -8,11 +8,15 @@ import "./index.css";
 import "./App.css";
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(true);
+
+
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+  
 
   return (
     <>

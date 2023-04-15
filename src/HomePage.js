@@ -9,7 +9,7 @@ function HomePage() {
     <div className="homepage">
       <div className="homepage-content">
         <h2> Welcome to Kashur Scientist! </h2>{" "}
-        <p>
+        <p className="para-p1">
           We are a startup that specializes in providing online courses on
           various subjects.Our courses are designed to help you enhance your
           skills and knowledge, and advance your career.{" "}
@@ -17,8 +17,7 @@ function HomePage() {
         <Link to="/courses">
           <button className="explore-button"> Explore Courses </button>{" "}
         </Link>{" "}
-        </div>{" "}
-
+      </div>{" "}
     </div>
   );
 }
