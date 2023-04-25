@@ -1,6 +1,8 @@
 .parentG{
     background-color: #eee;
     padding:3%;
+    opacity: 0.4;
+    margin-top: 90px;
 }
 
 .cardsG
@@ -10,12 +12,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    
     z-index: 1;
     border: solid rgb(10, 10, 10);
     border-radius: 8px;
     box-shadow: 5px 5px rgb(203, 201, 201);
     height: 450px;
+    overflow: scroll;
 }
 .part1G{
     background-color: #b4acac;
