@@ -6,6 +6,9 @@ import Contacts from "./Contacts";
 import Courses from "./Courses";
 import "./index.css";
 import "./App.css";
+import Exam from "./Exam";
+import Mentalhealth from "./Mentalhealth";
+import Skill from "./Skill";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(true);
@@ -69,8 +72,10 @@ function App() {
               <Route path="/about" element={<About />} />{" "}
               <Route path="/contact" element={<Contacts />} />{" "}
               <Route path="/courses" element={<Courses />} />{" "}
-
-              < Route path="*" element={<h1> 404 Not Found </h1>} />{" "}
+              <Route path="/Exam" element={<Exam />} />{" "}
+              <Route path="/Mentalhealth" element={<Mentalhealth />} />{" "}
+              <Route path="/Skill" element={<Skill />} />{" "}
+              <Route path="*" element={<h1> 404 </h1>} />{" "}
             </Routes>{" "}
           </main>{" "}
         </div>{" "}

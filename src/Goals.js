@@ -1,5 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Mentalhealth from './Mentalhealth';
+import Skill from './Skill';
+import Exam from './Exam';
+
+
+
 
 
 import './Goals.css';
@@ -26,7 +32,8 @@ function Goals() {
       <h1 id="cardheadG">Mental Health</h1><br/>
       <p>KOSHUR SCIENTIST, a leading educational institute in Kashmir, has taken a significant step towards promoting mental health awareness in schools. </p>
       <Link to="/Mentalhealth">
-      <button id="btn">Know More</button> 
+      <button id="btn">Know More</button>
+      
       </Link>{" "}
 
       </div>
