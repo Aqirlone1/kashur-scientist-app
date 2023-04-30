@@ -1,0 +1,189 @@
+.parentG{
+    background-color:  rgba(238,238,238,0.5);
+    padding:3%;
+    opacity: 0.4;
+    margin-top: 90px;
+}
+
+.cardsG
+{
+    background-color: rgba(238,238,238,0.5);
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    z-index: 1;
+    border: solid rgb(10, 10, 10);
+    border-radius: 8px;
+    box-shadow: 5px 5px rgb(203, 201, 201);
+    height: 450px;
+    overflow: scroll;
+}
+.part1G{
+    background-color: rgba(180,172,172,0.3);
+    color: black;
+    width: 20%;
+    aspect-ratio: 3/4;
+    display: flex;
+    justify-content: center;
+    padding: 15%;
+    border-radius: 8 0 0 8;
+}
+.part1-MH
+{
+    background-color:  rgba(238,238,238,0.7);
+    color: black;
+    width: 70%;
+    aspect-ratio: 4/3;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    display: block;
+    padding-right: 8%;
+    padding: 2%;
+    border-radius: 8 0 0 8;
+}
+.part2G{
+    color: rgb(16, 16, 16);
+    background-color:   rgba(238,238,238,0.5);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    display: block; 
+    padding-left: 8%;
+    border-radius: 0 8 8 0;
+    flex-wrap:wrap;
+}
+.part2-emt{
+    background-color: rgba(180,172,172,0.3);
+    color: black;
+    width: 20%;
+    aspect-ratio: 3/4;
+    display: flex;
+    justify-content: center;
+    padding: 15%;
+    border-radius: 0 8 8 0;
+
+}
+#cardheadG{
+    background-color:   rgba(238,238,238,0.5);
+    color:rgb(16, 16, 16);
+    
+}
+.paraG{
+    display: flex;
+    justify-content: center;
+    color: rgb(16, 16, 16);
+    font-size: smaller;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+#btn
+{
+    border: solid orange;
+    color: orange;
+    border-radius: 30px;
+    background-color: rgb(243, 217, 168);
+    padding: 1%;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;   
+}
+
+/*css for Skill page*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+.skill{
+    background-image: url(Skillbg.png);
+    
+    padding: 2%;
+}
+#skillhead{
+    display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+    color:beige;
+    font-size: 4rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+   
+}
+.skillpara1{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    border-radius: 16px;
+    color: rgb(16, 16, 16);
+    font-size: larger;
+    line-height: 1.8;
+    color: white;
+    font-family: 'League+Spartan',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*skill images*/
+
+  
+  .pic-skill {
+    width: 100vw;
+    height: 300px;
+    background-color: black;
+  }
+ 
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .pic-skill {
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    margin-top: 15vh;
+  }
+  
+  .pic-skill > img {
+    position: absolute;
+    top: 0;
+    left: calc(30% - 100px);
+    opacity: 0;
+    animation: display 10s infinite;
+    height: 300px;
+    width: 50vw;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }

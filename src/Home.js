@@ -6,7 +6,7 @@ import Slant from "./Aima/slant";
 import Slider from "./Aima/Slider";
 import "./featured.css";
 import Footer from "./Aima/footer";
-import Goals from "./Goals"
+import Goals from "./Tasleem/Goals"
 
 
 
