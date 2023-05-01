@@ -72,9 +72,9 @@ function App() {
               <Route path="/about" element={<About />} />{" "}
               <Route path="/contact" element={<Contacts />} />{" "}
               <Route path="/courses" element={<Courses />} />{" "}
-              <Route path="/Tasleem/Exam" element={<Exam />} />{" "}
-              <Route path="/Tasleem/Mentalhealth" element={<Mentalhealth />} />{" "}
-              <Route path="/Tasleem/Skill" element={<Skill />} />{" "}
+              <Route path="/Exam" element={<Exam />} />{" "}
+              <Route path="/Mentalhealth" element={<Mentalhealth />} />{" "}
+              <Route path="/Skill" element={<Skill />} />{" "}
               <Route path="*" element={<h1> 404 </h1>} />{" "}
             </Routes>{" "}
           </main>{" "}
