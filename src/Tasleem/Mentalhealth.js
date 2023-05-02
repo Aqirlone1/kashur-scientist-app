@@ -1,10 +1,11 @@
 import React from 'react'
+import './Goals.css'
 
 function Mentalhealth() {
   return (
-    <div>
-        <h1>Mental Health</h1>
-        <p>KOSHUR SCIENTIST, a leading educational institute in Kashmir, has taken a significant step towards promoting mental health awareness in schools. The institute has launched a program that involves visiting different schools and organizing various events to make people aware of mental health and related issues. The program aims to help students deal with the difficulties they face in academics, which can have a significant impact on their mental health
+    <div className="MHealth">
+        <h1 id="MHead">MENTAL HEALTH</h1>
+        <p className="MHpara1">KOSHUR SCIENTIST, a leading educational institute in Kashmir, has taken a significant step towards promoting mental health awareness in schools. The institute has launched a program that involves visiting different schools and organizing various events to make people aware of mental health and related issues. The program aims to help students deal with the difficulties they face in academics, which can have a significant impact on their mental health
         The events organized under this program aim to educate students about various aspects of mental health, including stress management, anxiety, depression, and other mental health issues. The program also includes workshops and seminars conducted by mental health professionals who provide guidance and support to students. The events are designed to help students develop coping mechanisms and strategies to deal with the challenges they face in their daily lives.
         The mental health awareness program is an excellent initiative by KOSHUR SCIENTIST, as it addresses an issue that is often overlooked in the education system. Many students struggle with mental health issues due to the pressure of academic performance, and this program provides them with the necessary support and guidance they need to deal with these issues.
         The program is an excellent opportunity for students to learn about mental health and related issues and develop the necessary skills to deal with stress and anxiety. It also promotes a culture of openness and encourages students to speak up about their mental health issues and seek help when needed.
